@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Yotube</string>
+    
+    <string name="action">Экшен</string>
+    <string name="anime">Анимэ</string>
+    <string name="cartoon">Мультфильм</string>
+    <string name="drama">Драма</string>
+    <string name="horror">Ужас</string>
+    <string name="melodrama">Мелодрама</string>
+    <string name="fantasy">Фантастика</string>
+    <string name="comedy">Комедия</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="categories">Категории</string>
+
+    />
 </resources>
