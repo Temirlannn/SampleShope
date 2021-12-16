@@ -5,17 +5,20 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+import com.itacademy.myapplication.Adapters.CategoryAdapter
+import com.itacademy.myapplication.Constants
 import com.itacademy.myapplication.R
 
 class CategoryFragment: Fragment(){
 
-override fun onCreateView(
+    override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_category, container, false)
-        getString(R.string.action)
-
-        return null
+        val view = inflater.inflate(R.layout.fragment_category, container, false)
+        val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerView)
+        recyclerView.adapter = CategoryAdapter(Constants.categories, requireActivity())
+        return view
     }
 }

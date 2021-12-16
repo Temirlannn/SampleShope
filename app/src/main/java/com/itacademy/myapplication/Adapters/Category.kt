@@ -1,6 +1,6 @@
 package com.itacademy.myapplication.Adapters
 
-class CategoryAdapters (
-    
-)
+class Category {
 
+    val name = Int
+}
