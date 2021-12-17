@@ -25,7 +25,7 @@ class CategoryAdapter(private val array: ArrayList<Cotegory>, private val contex
             val item = array[position]
             holder.title.text = holder.itemView.context.getString(item.name)
             holder.itemView.setOnClickListener {
-                context.supportFragmentManager.beginTransaction()
+                context.supportFragmentManager.beginTransaction ()
                     .add(R.id.container, VideoFragment())
                     .commit()
             }
@@ -34,4 +34,4 @@ class CategoryAdapter(private val array: ArrayList<Cotegory>, private val contex
         override fun getItemCount(): Int {
             return array.size
         }
-    }
+}
