@@ -18,8 +18,9 @@ class VideoFragment : Fragment(){
     ): View? {
         val view =  inflater.inflate(R.layout.fragment_video, container, false)
         var filteredArray = Constants.categories.filter { item ->
-            item.id == Categories.Horror.ordinal || item.id == Categories.Comedy.ordinal || item.id == Categories.Cartoon.ordinal}
+            item.id == Categories.Horror.ordinal || item.id == Categories.Comedy.ordinal || item.id == Categories.Cartoon.ordinal
 
+        }
         return view
     }
 }

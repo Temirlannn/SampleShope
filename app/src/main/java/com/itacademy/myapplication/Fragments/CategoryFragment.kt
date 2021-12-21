@@ -18,7 +18,10 @@ class CategoryFragment: Fragment(){
     ): View? {
         val view = inflater.inflate(R.layout.fragment_category, container, false)
         val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerView)
-        recyclerView.adapter = CategoryAdapter(Constants.categories, requireActivity())
+        recyclerView.adapter = CategoryAdapter(Constants.categories, requireActivity()
+
+        )
         return view
+
     }
 }

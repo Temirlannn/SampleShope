@@ -35,17 +35,6 @@ class Constants {
             Video(Categories.Horror.ordinal,"Описание","Название","url"),
             Video(Categories.Horror.ordinal,"Описание","Название","url"),
 
-
-
-            Video(Categories.Comedy.ordinal,"Описание","Название","url"),
-            Video(Categories.Comedy.ordinal,"Описание","Название","url"),
-            Video(Categories.Comedy.ordinal,"Описание","Название","url"),
-
-
-            Video(Categories.Drama.ordinal,"Описание","Название","url"),
-            Video(Categories.Drama.ordinal,"Описание","Название","url"),
-            Video(Categories.Drama.ordinal,"Описание","Название","url")
-
         )
     }
 }
